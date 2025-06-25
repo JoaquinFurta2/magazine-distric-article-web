@@ -414,7 +414,7 @@ input.active {
 /* HERO */
 
 .hero {
-    height: 100vh;
+    height: 100svh;
 
     background: var(--_url, url(images/mobile_img/0-imgmini.jpg));
     background-size: cover;
