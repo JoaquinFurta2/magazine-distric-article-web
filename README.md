@@ -14,7 +14,21 @@ The clone includes:
 - Custom CSS for layout and transitions
 - Scroll and hover effects
 
-## Technologies Used
+## 📸 Screenshots
+
+### Desktop View
+<div style="display: flex; flex-wrap: wrap;">
+<img src="./screenshots/screenshot-desktop-1.jpg" alt="Homepage" width="500"/>
+<img src="./screenshots/screenshot-desktop-2.jpg" alt="Homepage" width="500"/>
+</div>
+
+###  Mobile View
+<div style="display: flex; flex-wrap: wrap;">
+<img src="./screenshots/screenshot-mobile-1.jpg" alt="Homepage" width="175" />
+<img src="./screenshots/screenshot-mobile-2.jpg" alt="Homepage" width="175"/>
+</div>
+
+## ⚒ Technologies Used
 
 - HTML5
 - CSS3
