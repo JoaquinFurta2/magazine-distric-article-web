@@ -45,7 +45,8 @@
     --ff-size-small:clamp(0.6rem, 1vw, 0.8rem);
     --ff-size-big:clamp(1rem, 2vw, 1.5rem);
     --ff-size-normal:clamp(1rem, 2vw, 1.125rem);
-    --ff-size-title:clamp( 2rem, 6vw, 5rem);
+    --ff-size-title:clamp( 2rem, 6vw, 4rem);
+    --ff-size-main-title:clamp( 2rem, 6vw, 5rem);
     --ff-size-quote:clamp( 1.5rem, 6vw, 2.5rem);
     --ff-size-nav: clamp(2rem, 3vw, 3rem);
 
@@ -441,8 +442,8 @@ input.active {
 }
 
 h1 {
-    font-size: var(--ff-size-title) ;
-    margin: 0.5rem 0 0 0;
+    font-size: var(--ff-size-main-title) ;
+    margin: 0.5rem 0 0 ;
     line-height: 1;
     max-width: 750px;
 }
@@ -623,6 +624,10 @@ Article > section {
 @media (min-width:780px) {
 
     /* NAV media quieries */
+
+    .hero_details {
+        margin-left: 1rem;
+    }
 
     nav {
         width: 35%;
